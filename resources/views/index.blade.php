@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class=" background-image grid grid-cols-1 m-auto">
+    <div class=" background-image grid grid-cols-1 m-auto max-h-96">
     <div class="bg-black bg-opacity-50">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
@@ -46,7 +46,7 @@
 
             <a 
                 href="/blog"
-                class="uppercase bg-green-300 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+                class="uppercase  bg-green-300 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
                 Find Out More
             </a>
         </div>
@@ -88,7 +88,7 @@
     </div>
 
     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
+        <div class="flex bg-teal-700 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
                     PHP
