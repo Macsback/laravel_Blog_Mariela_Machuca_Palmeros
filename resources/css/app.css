@@ -3,3 +3,13 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+.background-image 
+{
+    background-image: url('../../public/images/cat-group.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
