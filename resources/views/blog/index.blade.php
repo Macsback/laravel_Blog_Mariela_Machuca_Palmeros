@@ -21,7 +21,7 @@
     <div class="flex place-content-center  pt-15 w-4/5 m-auto">
         <a 
             href="/blog/create"
-            class="bg-green-500  group:hover group-hover\:bg-cool-gray-400 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+            class="bg-green-500  uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
             Create post
         </a>
     </div>
