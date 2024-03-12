@@ -42,7 +42,7 @@ class CommentsController extends Controller
         ]);
 
         return redirect('/comments')
-            ->with('message', ' Your post has been added!');
+            ->with('message', ' Your Review has been added!');
     }
 
     /**
@@ -71,6 +71,6 @@ class CommentsController extends Controller
         $comment->delete();
 
         return redirect('/comments')
-            ->with('message', ' Your post has been deleted!');
+            ->with('message', ' Your Review has been deleted!');
     }
 }
