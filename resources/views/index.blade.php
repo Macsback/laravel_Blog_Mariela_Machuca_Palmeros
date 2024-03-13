@@ -44,11 +44,7 @@
              on this blog.
             </p>
 
-            <a 
-                href="/blog"
-                class="uppercase  bg-green-300 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
-                Find Out More
-            </a>
+     
         </div>
     </div>
 
@@ -88,7 +84,7 @@
     </div>
 
     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-teal-700 text-gray-100 pt-10">
+        <div class="flex bg-teal-700 mx-5 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
                     10 Signs your cat owns a Multi-Millionaire Business 
@@ -102,14 +98,31 @@
                 </h3>
 
                 <a 
-                    href=""
+                    href="/blog"
                     class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                     Find Out More
                 </a>
             </div>
         </div>
-        <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+        <div class="flex bg-teal-400 text-gray-100 mx-5 pt-10">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <span class="uppercase text-xs">
+                   The mind of a cat
+                </span>
+
+                <h3 class="text-xl font-bold py-10">
+                   Cats are very sophisticated creatures, so It's understandable that lower species find it hard to understand us.
+                   But Don't worry, Dr. Fuzzypaws will let you build the basis for a deeper understandment of a Cat's mind.
+                       
+                  
+                </h3>
+
+                <a 
+                    href="/blog"
+                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Find Out More
+                </a>
+            </div>
         </div>
     </div>
 
