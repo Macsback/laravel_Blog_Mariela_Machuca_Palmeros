@@ -14,6 +14,8 @@
     
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
@@ -26,11 +28,23 @@
                 </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
                     @guest
+                    <a href="{{ url('/comments') }}" class="no-underline hover:underline">
+                        Reviews
+                      </a>
+                    <a href="{{ url('/blog') }}" class="no-underline hover:underline">
+                        Blogs
+                      </a>
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
                             <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
+                    <a href="{{ url('/comments') }}" class="no-underline hover:underline">
+                        Reviews
+                      </a>
+                    <a href="{{ url('/blog') }}" class="no-underline hover:underline">
+                        Blogs
+                      </a>
                         <span>{{ Auth::user()->name }}</span>
 
                         <a href="{{ route('logout') }}"

@@ -18,11 +18,12 @@
 @endif
 
 
-
+<div class="flex grid-cols-2 content-center mx-10 items-center justify-center">
 @foreach ($comments as $comment)
-    <div class=" grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+
+    <div class=" flex gap-20 w-4/5 mx-8 py-15 border-b border-gray-200 max-w-lg items-center justify-center">
       
-        <div>
+        <div >
             <h2 class="text-gray-700 font-bold text-5xl pb-4">
                 {{ $comment->title }}
             </h2>
@@ -57,8 +58,10 @@
                 </span>
             @endif
         </div>
-    </div>    
+    </div>   
+
 @endforeach
+</div> 
 @if (Auth::check())
     <div class="flex place-content-center  pt-15 w-4/5 m-auto">
         <a 

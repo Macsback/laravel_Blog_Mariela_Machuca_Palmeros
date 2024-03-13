@@ -13,10 +13,20 @@
     <span class="text-gray-500">
         By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
     </span>
-
-    <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
+<div class="sm:grid grid-cols-2"> 
+    <div class="max-w-9">
+    <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light ">
         {{ $post->description }}
     </p>
+</div>
+
+    <div>
+        <img src="{{ asset('images/' . $post->image_path) }}" alt="">
+    </div>
+
+    <div>
+
+    </div>
 </div>
 
 @endsection 
