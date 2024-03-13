@@ -83,7 +83,7 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+            My most advanced investigations in one place. Don't be a scaredy cat and dive into the world of knowledge.
         </p>
     </div>
 
@@ -91,11 +91,14 @@
         <div class="flex bg-teal-700 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
-                    PHP
+                    10 Signs your cat owns a Multi-Millionaire Business 
                 </span>
 
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                   Have you ever wondered where your cat goes out at night? or why they are sleepy all day?
+                   Well, he might be the CEO of a multimillionare business. 
+
+                   Here are 10 signs to look out for if you believe your cat could be part of the 1.1%.
                 </h3>
 
                 <a 
@@ -108,5 +111,26 @@
         <div>
             <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
         </div>
+    </div>
+
+    <div class="text-center py-15">
+        <span class="uppercase text-s text-gray-400">
+            Reviews
+        </span>
+
+        <h2 class="text-4xl font-bold py-10">
+            Consider leaving me a Review
+        </h2>
+
+        <p class="m-auto w-4/5 text-gray-500 pb-9" >
+           A cat never stops learning, that is why is important for me to read your feedback so I 
+           can make this blog the best learning experience possible
+        </p>
+
+        <a 
+        href="/comments"
+        class="uppercase my-9 bg-blue-800 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+        Leave a Review
+    </a>
     </div>
 @endsection
