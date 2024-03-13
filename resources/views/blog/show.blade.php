@@ -24,9 +24,21 @@
         <img src="{{ asset('images/' . $post->image_path) }}" alt="">
     </div>
 
-    <div>
 
-    </div>
 </div>
+<div class="text-center py-15">
+    <span class="uppercase text-s text-gray-400">
+        Did you liked the post?
+    </span>
 
+    <h2 class="text-2xl font-bold py-10">
+        Consider leaving me a Comment
+    </h2>
+
+    <a 
+    href="/comments"
+    class="uppercase my-9 bg-green-800 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+    Leave and read some Reviews
+</a>
+</div>
 @endsection 
