@@ -35,7 +35,7 @@
                 Keep Reading
             </a>
 
-            @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
+            @if (isset(Auth::user()->id) && Auth::user()->id == 3)
                 <span class="float-right">
                     <a 
                         href="/blog/{{ $post->slug }}/edit"
@@ -63,7 +63,7 @@
         </div>
     </div>    
 @endforeach
-@if (Auth::check())
+@if (isset(Auth::user()->id) && Auth::user()->id == 3)
     <div class="flex place-content-center  pt-15 w-4/5 m-auto">
         <a 
             href="/blog/create"
