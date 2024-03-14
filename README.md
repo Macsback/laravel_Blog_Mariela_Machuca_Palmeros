@@ -46,9 +46,8 @@ php artisan migrate
 ```
 
 ## Creating Blogs <br>
-You will only be able to Create a new blog if you're logged in as Dr.Fuzzypaws<br>
-The image is obligatory <br>
-The Image has to have a max-width of 650px.
+•	You will only be able to Create a new blog if you're logged in as Dr.Fuzzypaws<br>
+•	The image is obligatory <br>
+•	The Image has to have a max-width of 650px.
 
-## Contributing
-Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
+
