@@ -2,10 +2,14 @@
 
 @section('content')
 <div class="w-4/5 m-auto text-center">
-    <div class="py-15 border-b border-gray-200">
+    <div class="py-14 pb-10 border-b border-gray-200">
         <h1 class="text-6xl">
             Reviews
         </h1>
+
+        <p class="uppercase text-s text-gray-400 my-5">
+            Be Respectful, Hate Reviews will be deleted.
+        </p>
     </div>
 </div>
 
@@ -18,7 +22,7 @@
 @endif
 
 
-<div class="flex grid-cols-2 content-center mx-10 items-center justify-center">
+<div class="flex grid-cols-3 content-center mx-10 items-center  justify-center">
 @foreach ($comments as $comment)
 
     <div class=" flex gap-20 w-4/5 mx-8 py-15 border-b border-gray-200 max-w-lg items-center justify-center">
@@ -70,5 +74,24 @@
             Leave a Review
         </a>
     </div>
+
+    @else
+<div class="text-center py-15">
+    <span class="uppercase text-s text-gray-400">
+       Want to leave a Review?
+    </span>
+
+    <h2 class="text-2xl font-bold py-10">
+        Log In or Register to interact with me!!
+    </h2>
+
+    <a 
+    href="/login"
+    class="uppercase my-9 bg-green-800 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+    Log In
+</a>
+</div>
 @endif
+
+
 @endsection
