@@ -1,17 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="w-4/5 m-auto text-center">
-    <div class="py-15 border-b border-gray-200">
-        <h1 class="text-6xl">
-            Blog Posts
-        </h1>
-    </div>
-</div>
+
 
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
-        <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
+        <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl px-4 py-4">
             {{ session()->get('message') }}
         </p>
     </div>
@@ -37,7 +31,7 @@
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            <a href="/blog/{{ $post->slug }}" class="uppercase bg-teal-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
                 Keep Reading
             </a>
 
