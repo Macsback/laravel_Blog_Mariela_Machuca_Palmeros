@@ -38,7 +38,7 @@
 
            
 
-            @if (isset(Auth::user()->id) && Auth::user()->id == $comment->user_id)
+            @if (isset(Auth::user()->id) && Auth::user()->id == $comment->user_id || isset(Auth::user()->id) && Auth::user()->id == 3 )
            
 
                 <span class="float-right">
