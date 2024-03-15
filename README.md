@@ -49,5 +49,5 @@ php artisan migrate
 •	The Image has to have a max-width of 650px.
 
 ## Log in as Dr.Fuzzypaws <br>
-Email: Dr@Dr.com
+Email: Dr@Dr.com <br>
 Password: 12345678
