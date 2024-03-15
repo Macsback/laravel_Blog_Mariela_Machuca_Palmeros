@@ -2,9 +2,7 @@
 
 This repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
 
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+•	Author: Mariela Machuca Palmeros <br>
 
 ## Requirements
 •	PHP 7.3 or higher <br>
@@ -50,4 +48,6 @@ php artisan migrate
 •	The image is obligatory <br>
 •	The Image has to have a max-width of 650px.
 
-
+## Log in as Dr.Fuzzypaws <br>
+Email: Dr@Dr.com
+Password: 12345678
