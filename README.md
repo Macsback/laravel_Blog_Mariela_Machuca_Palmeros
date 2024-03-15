@@ -48,6 +48,11 @@ php artisan migrate
 •	The image is obligatory <br>
 •	The Image has to have a max-width of 650px.
 
+## Writing Reviews <br>
+•	You will only be able to write a new review if you're logged in<br>
+•	You will only be able to delete your own review. <br>
+•	Dr. Fuzzypaws can delete any review.
+
 ## Log in as Dr.Fuzzypaws <br>
 Email: Dr@Dr.com <br>
 Password: 12345678
